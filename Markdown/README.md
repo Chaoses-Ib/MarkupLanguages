@@ -1,6 +1,13 @@
 # Markdown
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor.[^wiki]
 
+<!--t221103-->
+败笔：
+- 链接地址中不能含有空格
+- 换行必须行尾两个空格
+- `* + _ -` 冗余占用符号
+- 表格语法难堪大用
+
 [^wiki]: [Markdown - Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 
 ## Variants
