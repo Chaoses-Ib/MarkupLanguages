@@ -12,6 +12,7 @@
 - [Markup Mode](Typst/Markup.typ)
   - [Markdown](Typst/Markdown.typ)
 - [Code Mode](Typst/Code/README.typ)
+  - [Documentation](Typst/Code/Docs.typ)
 - [Styling](Typst/Styling.md)
 - [Export](Typst/Export.md)
 - [Editors](Typst/Editors.md)
