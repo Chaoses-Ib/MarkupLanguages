@@ -18,4 +18,5 @@
 - Library
   - [Model](Typst/Library/Model.typ)
   - [Table](Typst/Library/Table.typ)
+  - [WWW](Typst/Library/WWW.typ)
 - [Packages](Typst/Packages.typ)
