@@ -67,3 +67,21 @@ e.g.
 - [N] Oort Cloud
 
 = #link("https://typst.app/docs/reference/model/quote/")[Quote]
+== Block quote
+- `quote(block: true)[...]`
+- ```typ
+  #let q(body, attribution, ..args) = quote(body, attribution: attribution, block: true, ..args)
+  ```
+- With `md()`:
+  ```typ
+  #md(`> Example`)
+  ```
+
+e.g. #quote(block: true)[Exmaple]
+
+#md(`[blockquote - Issue #105 - typst/typst](https://github.com/typst/typst/issues/105)`)
+
+#md(`[Block quote syntax - typst/typst - Discussion #2361](https://github.com/typst/typst/discussions/2361)`)
+- #md(`[Block quote syntax - Issue #2362 - typst/typst](https://github.com/typst/typst/issues/2362)`)
+
+#md(`[How to make a block quote with a border on the left side, like on GitHub? - Questions - Typst Forum](https://forum.typst.app/t/how-to-make-a-block-quote-with-a-border-on-the-left-side-like-on-github/834)`)
