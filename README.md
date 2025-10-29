@@ -9,9 +9,13 @@
 - [Editors](Markdown/Editors.md)
 
 ## [Typst](Typst/README.md)
+- [Markup Mode](Typst/Markup.typ)
+  - [Markdown](Typst/Markdown.typ)
+- [Code Mode](Typst/Code/README.typ)
 - [Styling](Typst/Styling.md)
 - [Export](Typst/Export.md)
 - [Editors](Typst/Editors.md)
 - Library
   - [Model](Typst/Library/Model.typ)
+  - [Table](Typst/Library/Table.typ)
 - [Packages](Typst/Packages.typ)

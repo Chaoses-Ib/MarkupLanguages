@@ -15,6 +15,8 @@
 
 [TeX and Typst: Layout Models | Laurenz's Blog](https://laurmaedje.github.io/posts/layout-models/)
 
+[r/typst](https://www.reddit.com/r/typst/)
+
 ## Installation
 - `scoop install typst`
 
@@ -39,6 +41,9 @@
   - `import "bar.typ": baz.a`
 
 [Imports that are global to the project - Issue #595 - typst/typst](https://github.com/typst/typst/issues/595)
+- [Local packages](Packages.typ)
+
+[Private / non-exported bindings - Issue #4534 - typst/typst](https://github.com/typst/typst/issues/4534)
 
 [How can I create a set of shared `set` and `show` rules which can be imported into a theme? - Questions - Typst Forum](https://forum.typst.app/t/how-can-i-create-a-set-of-shared-set-and-show-rules-which-can-be-imported-into-a-theme/1292)
 - `#show: styling`

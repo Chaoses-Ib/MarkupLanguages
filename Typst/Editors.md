@@ -16,4 +16,5 @@ Web:
 - [Preview Feature](https://myriad-dreamin.github.io/tinymist/feature/preview.html)
   - No dark mode
   - Cannot paste HTML as Typst
+    - [Pasting HTML/rich text as Typst - Issue #2207](https://github.com/Myriad-Dreamin/tinymist/issues/2207)
     - [ ] typst-paste

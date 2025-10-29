@@ -80,7 +80,16 @@ Extensions:
 
 - Clipboard
   - [Markdown Paste](https://github.com/telesoho/vscode-markdown-paste-image)
+    - [FYI, VS Code built in markdown extension is good enough - Issue #123](https://github.com/telesoho/vscode-markdown-paste-image/issues/123)
     - `Ctrl+Alt+V`
+      - For Typst too: `editorTextFocus && (resourceLangId == 'markdown' || resourceLangId == 'typst')`
+        ```json
+        {
+            "key": "ctrl+alt+v",
+            "command": "telesoho.MarkdownPaste",
+            "when": "editorTextFocus && resourceLangId == 'typst'"
+        }
+        ```
     - [Feature request: follow link title · Issue #27 · telesoho/vscode-markdown-paste-image](https://github.com/telesoho/vscode-markdown-paste-image/issues/27)
 
     Rules:
@@ -99,6 +108,8 @@ Extensions:
     - `Ctrl+Alt+P`
 
   - [Paste Image](https://github.com/mushanshitiancai/vscode-paste-image)
+
+  - [Paste Special](https://marketplace.visualstudio.com/items?itemName=d3v.pastespecial)
 
 - [Markdown Shortcuts](https://github.com/mdickin/vscode-markdown-shortcuts)
 

@@ -1,3 +1,4 @@
+#import "@local/ib:0.1.0": *
 #title[#link("https://typst.app/docs/reference/model/")[Model]]
 
 #quote[
@@ -20,10 +21,17 @@ Here, you can find functions to structure your document and interact with that s
   - A bit verbose compared to Markdown.
   - Putting link before body is visually less readable.
 
-#link("https://github.com/typst/typst/discussions/1667")[Dedicated link body syntax - typst/typst - Discussion #1667]
+  #link("https://github.com/typst/typst/discussions/1667")[Dedicated link body syntax - typst/typst - Discussion #1667]
+
+- #link("https://typst.app/universe/package/kinase")[kinase -- Typst Universe]
+
+- #link("https://github.com/typst/typst/issues/6128")[URL with CJK characters becomes broken when exporting Typst document to PDF - Issue #6128 - typst/typst]
+  - #link("https://typst.app/universe/package/lure")[lure -- Typst Universe]
 
 = List
 == Check list
+#md(`[How to make a check list with a checkbox at the beginning of each item? : r/typst](https://www.reddit.com/r/typst/comments/1d7empo/how_to_make_a_check_list_with_a_checkbox_at_the/)`)
+
 === #link("https://typst.app/universe/package/cheq/")[cheq]
 
 ```typ
