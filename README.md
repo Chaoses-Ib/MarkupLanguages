@@ -15,6 +15,7 @@
   - [Documentation](Typst/Code/Docs.typ)
 - [Styling](Typst/Styling.md)
 - [Export](Typst/Export.md)
+  - [HTML](Typst/Export/HTML.typ)
 - [Editors](Typst/Editors.md)
 - Library
   - [Model](Typst/Library/Model.typ)
