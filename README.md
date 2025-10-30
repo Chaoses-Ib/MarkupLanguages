@@ -18,5 +18,7 @@
 - Library
   - [Model](Typst/Library/Model.typ)
   - [Table](Typst/Library/Table.typ)
+  - [Text](Typst/Library/Text.typ)
+  - [Visualize](Typst/Library/Visualize.typ)
   - [WWW](Typst/Library/WWW.typ)
 - [Packages](Typst/Packages.typ)
