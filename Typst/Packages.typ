@@ -1,6 +1,27 @@
 #import "@local/ib:0.1.0": *
 #title[Packages]
 
+= Project root
+- `typst watch --root .`
+
+#md(`[Entry point (main file) detection within Typst document for nested projects - Issue #4502 - typst/typst](https://github.com/typst/typst/issues/4502)`)
+
+== Tinymist
+#md(`[Project Model - Tinymist Docs](https://myriad-dreamin.github.io/tinymist/feature/project.html)`)
+
+- `singleFile` + `tinymist.pinMainToCurrent`
+
+  #md(`[How can I make label references work across multiple files with Neovim + tinymist? - Questions - Typst Forum](https://forum.typst.app/t/how-can-i-make-label-references-work-across-multiple-files-with-neovim-tinymist/2275)`)
+
+- `lockDatabase`
+
+  #md(```[feat: resolve projects by `lockDatabase` by Myriad-Dreamin - Pull Request #1142 - Myriad-Dreamin/tinymist](https://github.com/Myriad-Dreamin/tinymist/pull/1142)```)
+
+- #strike[`[[tinymist.input]]`]
+
+  #md(`[MVP project-level configuration - Issue #900 - Myriad-Dreamin/tinymist](https://github.com/Myriad-Dreamin/tinymist/issues/900)`)
+
+= Import
 ```typ
 #import "@preview/example:0.1.0": add
 #add(2, 7)

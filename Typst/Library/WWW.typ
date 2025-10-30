@@ -1,8 +1,13 @@
+#import "@local/ib:0.1.0": *
 #title[WWW]
 - No network API?
 - No Open Graph package
 
-= #link("https://typst.app/universe/package/linkify")[linkify]
+= Packages
+- #md(`[iconic-salmon-svg: A Typst library for Social Media references with scalable vector graphics icons.](https://typst.app/universe/package/iconic-salmon-svg)`)
+  - #md(`[socialhub-fa: A Typst library for Social Media references with icons based on Font Awesome.](https://typst.app/universe/package/socialhub-fa)`)
+
+== #link("https://typst.app/universe/package/linkify")[linkify]
 e.g.
 
 #quote(block: true)[

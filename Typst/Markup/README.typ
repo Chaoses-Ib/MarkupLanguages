@@ -7,5 +7,5 @@ Markup syntactical mode.
 Syntax elements:
 / ```typ `print(1)` ```: #link("https://typst.app/docs/reference/model/raw/")[`raw`]
   - ````typ ```lang ``` ```` can be used in line.
-/ `<intro>`: #link("https://typst.app/docs/reference/model/label/")[`label`]
+/ `<intro>`: #link("https://typst.app/docs/reference/foundations/label/")[`label`]
 / `@intro`: #link("https://typst.app/docs/reference/model/ref/")[`ref`]

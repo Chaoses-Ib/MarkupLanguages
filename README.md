@@ -18,6 +18,7 @@
 - [Editors](Typst/Editors.md)
 - Library
   - [Model](Typst/Library/Model.typ)
+  - [Reference](Typst/Library/Reference.typ)
   - [Table](Typst/Library/Table.typ)
   - [Text](Typst/Library/Text.typ)
   - [Visualize](Typst/Library/Visualize.typ)
