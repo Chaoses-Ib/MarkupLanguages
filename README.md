@@ -14,6 +14,7 @@
 - [Code Mode](Typst/Code/README.typ)
   - [Documentation](Typst/Code/Docs.typ)
 - [Styling](Typst/Styling.md)
+- [Context](Typst/Context.typ)
 - [Export](Typst/Export.md)
   - [HTML](Typst/Export/HTML.typ)
 - [Editors](Typst/Editors.md)
