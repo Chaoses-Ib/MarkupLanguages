@@ -11,6 +11,7 @@
 ## [Typst](Typst/README.typ)
 - [Markup Mode](Typst/Markup.typ)
   - [Markdown](Typst/Markdown.typ)
+- [Math Mode](Typst/Math/README.typ)
 - [Code Mode](Typst/Code/README.typ)
   - [Documentation](Typst/Code/Docs.typ)
 - [Content](Typst/Content.typ)
