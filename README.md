@@ -13,6 +13,7 @@
   - [Markdown](Typst/Markdown.typ)
 - [Code Mode](Typst/Code/README.typ)
   - [Documentation](Typst/Code/Docs.typ)
+- [Content](Typst/Content.typ)
 - [Styling](Typst/Styling.md)
 - [Context](Typst/Context.typ)
 - [Export](Typst/Export.md)
@@ -26,3 +27,4 @@
   - [Visualize](Typst/Library/Visualize.typ)
   - [WWW](Typst/Library/WWW.typ)
 - [Packages](Typst/Packages.typ)
+- [→ib-typ](https://github.com/Chaoses-Ib/ib-typ)
