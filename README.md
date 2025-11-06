@@ -16,6 +16,7 @@
 - [Content](Typst/Content.typ)
 - [Styling](Typst/Styling.md)
 - [Context](Typst/Context.typ)
+- [Introspection](Typst/Introspection/README.typ)
 - [Export](Typst/Export.md)
   - [HTML](Typst/Export/HTML.typ)
 - [Editors](Typst/Editors.md)
