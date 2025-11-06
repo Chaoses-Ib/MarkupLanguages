@@ -1,7 +1,8 @@
-# Styling
-[Styling -- Typst Documentation](https://typst.app/docs/reference/styling/)
+#import "../lib.typ": *
+#title[Styling]
+#a[Styling -- Typst Documentation][https://typst.app/docs/reference/styling/]
 
-## Dark mode
+= Dark mode
 
 ```typst
 #set page(fill: black)
@@ -23,6 +24,6 @@ GitHub:
 #set page(fill: background-color)
 ```
 
-[Reverse the preview colors in dark mode - Issue #38 - typst/webapp-issues](https://github.com/typst/webapp-issues/issues/38)
+#a[Reverse the preview colors in dark mode - Issue #38 - typst/webapp-issues][https://github.com/typst/webapp-issues/issues/38]
 
-[How I write my GitHub Readme in Typst but also support Dark Mode - Showcase - Typst Forum](https://forum.typst.app/t/how-i-write-my-github-readme-in-typst-but-also-support-dark-mode/2311)
+#a[How I write my GitHub Readme in Typst but also support Dark Mode - Showcase - Typst Forum][https://forum.typst.app/t/how-i-write-my-github-readme-in-typst-but-also-support-dark-mode/2311]

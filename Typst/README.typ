@@ -1,9 +1,10 @@
-# [Typst](https://typst.app/)
-[GitHub](https://github.com/typst/typst)
+#import "../lib.typ": *
+#title[#a[Typst][https://typst.app/]]
+#github("https://github.com/typst/typst")
 
 - Rust
 
-> Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use. Typst has:
+#quote[Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use. Typst has:]
 - Built-in markup for the most common formatting tasks
 - Flexible functions for everything else
 - A tightly integrated scripting system
@@ -11,39 +12,39 @@
 - Fast compile times thanks to incremental compilation
 - Friendly error messages in case something goes wrong
 
-[Exploring Typst, a new typesetting system similar to LaTeX | Hacker News](https://news.ycombinator.com/item?id=41821361)
+#a[Exploring Typst, a new typesetting system similar to LaTeX | Hacker News][https://news.ycombinator.com/item?id=41821361]
 
-[TeX and Typst: Layout Models | Laurenz's Blog](https://laurmaedje.github.io/posts/layout-models/)
+#a[TeX and Typst: Layout Models | Laurenz's Blog][https://laurmaedje.github.io/posts/layout-models/]
 
-[r/typst](https://www.reddit.com/r/typst/)
+#a[r/typst][https://www.reddit.com/r/typst/]
 
-## Installation
-- `scoop install typst`
+= Installation
+- ```sh scoop install typst```
 
-## Syntax
-[Syntax -- Typst Documentation](https://typst.app/docs/reference/syntax/)
+= Syntax
+#a[Syntax -- Typst Documentation][https://typst.app/docs/reference/syntax/]
 
-## Text
-- [Customizing source line break behavior - Issue #710](https://github.com/typst/typst/issues/710)
+= Text
+- #a[Customizing source line break behavior - Issue #710][https://github.com/typst/typst/issues/710]
 
-  [How to force line breaks without extra spaces - Questions - Typst Forum](https://forum.typst.app/t/how-to-force-line-breaks-without-extra-spaces/4091)
+  #a[How to force line breaks without extra spaces - Questions - Typst Forum][https://forum.typst.app/t/how-to-force-line-breaks-without-extra-spaces/4091]
 
-## Scripting
-[Scripting -- Typst Documentation](https://typst.app/docs/reference/scripting/)
+= Scripting
+#a[Scripting -- Typst Documentation][https://typst.app/docs/reference/scripting/]
 
-### Modules
-[Module Type -- Typst Documentation](https://typst.app/docs/reference/foundations/module/)
+= Modules
+#a[Module Type -- Typst Documentation][https://typst.app/docs/reference/foundations/module/]
 
-- `include "bar.typ"` (evaluation)
-- `import "bar.typ"`
-  - `import "bar.typ" as baz`
-- `import "bar.typ": a, b`
-  - `import "bar.typ": baz.a`
+- ```typc include "bar.typ"``` (evaluation)
+- ```typc import "bar.typ"```
+  - ```typc import "bar.typ" as baz```
+- ```typc import "bar.typ": a, b```
+  - ```typc import "bar.typ": baz.a```
 
-[Imports that are global to the project - Issue #595 - typst/typst](https://github.com/typst/typst/issues/595)
-- [Local packages](Packages.typ)
+#a[Imports that are global to the project - Issue #595 - typst/typst][https://github.com/typst/typst/issues/595]
+- #a[Local packages][Packages.typ]
 
-[Private / non-exported bindings - Issue #4534 - typst/typst](https://github.com/typst/typst/issues/4534)
+#a[Private / non-exported bindings - Issue #4534 - typst/typst][https://github.com/typst/typst/issues/4534]
 
-[How can I create a set of shared `set` and `show` rules which can be imported into a theme? - Questions - Typst Forum](https://forum.typst.app/t/how-can-i-create-a-set-of-shared-set-and-show-rules-which-can-be-imported-into-a-theme/1292)
-- `#show: styling`
+#a[How can I create a set of shared `set` and `show` rules which can be imported into a theme? - Questions - Typst Forum][https://forum.typst.app/t/how-can-i-create-a-set-of-shared-set-and-show-rules-which-can-be-imported-into-a-theme/1292]
+- ```typ #show: styling```
