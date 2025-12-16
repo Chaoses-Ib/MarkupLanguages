@@ -91,6 +91,12 @@ Extensions:
         }
         ```
     - [Feature request: follow link title · Issue #27 · telesoho/vscode-markdown-paste-image](https://github.com/telesoho/vscode-markdown-paste-image/issues/27)
+    - Can be used for other languages via `MarkdownPaste.lang_rules`.
+
+      Although it only supports regex rules, for elements besides tables it should be good enough.
+      - Typst: [ib-typ/.vscode/settings.json](https://github.com/Chaoses-Ib/ib-typ/blob/main/.vscode/settings.json)
+
+      [Feature request: allow pasting of images in documents of other languages than markdown (like asciidoc) - Issue #56](https://github.com/telesoho/vscode-markdown-paste-image/issues/56)
 
     Rules:
     - Remove domain names in link titles (for Edge)
