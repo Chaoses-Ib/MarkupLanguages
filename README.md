@@ -23,6 +23,7 @@
   - [Reference](Typst/Library/Reference.typ)
   - [Table](Typst/Library/Table.typ)
   - [Text](Typst/Library/Text.typ)
+  - [Symbols](Typst/Library/Symbols.typ)
   - [Visualize](Typst/Library/Visualize.typ)
   - [WWW](Typst/Library/WWW.typ)
 - [Packages](Typst/Packages.typ)
